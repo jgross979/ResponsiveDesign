@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  background: grey;
+}
+
+html{
+  margin: 0;
+}
+
+/* MINIMUM WIDTH */
+.home-link{
+  position:fixed;
+  right: 15px;
+  background: white;
+  opacity: 0.5;
+  border: 3px black solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 15px;
+}
+
+.home-link:hover{
+  opacity: 0.9;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-family: 'Patua One', cursive;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 706px;
+}
+
+.box {
+  width: 100%;
+}
+
+.light_blue{
+  background: lightblue;
+}
+
+.green{
+  background: green;
+}
+
+.dark_blue{
+  background: darkblue;
+}
+.red{
+  background: red;
+}
+
+.orange{
+  background: orange;
+
+}
+@media screen and (min-width:450px) {
+  .light_blue, .green{
+    width:50%;
+  }
+}
+
+@media screen and (min-width:550px) {
+  .light_blue, .dark_blue{
+    width:50%;
+  }
+  .green, .red, .orange{
+    width: 33.333%;
+}
+
+@media screen and (min-width:700px) {
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}

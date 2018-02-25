@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  background: #6D454C;
+  font-family: 'Patua One', cursive;
+}
+
+html{
+  margin: 0;
+}
+
+.title{
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+
+.container{
+  position:relative;
+  top: 50%;
+  width: 100%;
+  margin: auto;
+}
+
+.box{
+  display: block;
+  margin: 25px auto;
+  width: 500px;
+  height: 100px;
+  border-radius: 7px;
+  background: grey;
+  text-align: center;
+  box-shadow: 7px 7px 5px #827d7d;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.box:hover{
+  box-shadow: 3px 3px 5px #827d7d;
+  opacity: 0.8;
+}
+
+.layout-link{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.cdrop{
+  background: #D89D6A;
+}
+
+.mfluid{
+  background: #FCFF6C;
+}
+
+.lshifter{
+  background: #D7FFAB;
+}
+
+.ocanvas{
+  background: #96ADC8;
+}
+
+
+@media screen and (max-width: 500px){
+  .box{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 630px){
+  .title{
+    font-size: 20px;
+  }
+}
