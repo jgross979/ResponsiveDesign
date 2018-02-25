@@ -6,7 +6,7 @@ html{
   margin: 0;
 }
 
-/* MINIMUM WIDTH */
+/* Home Link */
 
 .home-link{
   position:fixed;
@@ -30,6 +30,24 @@ a{
   font-family: 'Patua One', cursive;
 }
 
+/* Message */
+
+.message{
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+h1{
+  font-family: 'Patua One', cursive;
+  background: white;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+
+/* MINIMUM WIDTH */
 .container {
   display: flex;
   flex-wrap: wrap;
